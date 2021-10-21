@@ -17,11 +17,15 @@ The purpose of this software is to recover forgotten passwords, improve your own
 
 ## Compatibility
 
-// Soon...
+- Windows 10/11 x32/x64 (Windows 8/8.1, not tested yet)
+- Operation on the target system depending on the language support of the payload
+- If a virus protection other than Windows Security is installed, it may not work
 
 ## Setup Rubber Ducky
 
 // Soon...
+
+Tip: Update external programs regularly for desired results.
 
 ## Usage
 
