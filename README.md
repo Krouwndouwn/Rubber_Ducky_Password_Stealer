@@ -1,5 +1,7 @@
 # Rubber Ducky Password Stealer
 
+// Banner...
+
 With this software it is possible to retrieve user passwords from a Windows 10/11 system. For example, passwords from browsers, installed programs and system saved passwords such as WiFi passwords. In addition, there is also an optional option to add scripts that retrieve system information, program information, network information, etc. It is also possible to add your own .bat scripts that are automatically executed next to the current scripts.
 
 The above data is stored in text files on the SD card of the Rubber Ducky. This data is stored in a folder with the target's computer and username so that there are no complications when running on multiple computers or user accounts.
@@ -29,9 +31,11 @@ The purpose of this software is to recover forgotten passwords, improve your own
 
 Please feel free [submit an issue](https://github.com/Krouwndouwn/Rubber_Ducky_Password_Stealer/issues/new) for any of the following reasons:
 
-- //Soon...
-- //Soon...
-- //Soon...
+- Reporting a bug
+- Reporting a grammatical error
+- Suggesting a feature
+- Suggesting a improvement
+- Any other issue with the payloads, scripts or GitHub page
 
 ## Disclaimer
 
