@@ -12,7 +12,7 @@ The purpose of this software is to recover forgotten passwords, improve your own
 
 ## Requirements
 
-- Rubber Ducky with the [Twin Duck firmware](https://github.com/hak5darren/USB-Rubber-Ducky/tree/master/Firmware/Images) installed (c_duck_v2.1.hex)
+- Rubber Ducky with the [Twin Duck firmware](https://raw.githubusercontent.com/hak5darren/USB-Rubber-Ducky/master/Firmware/Images/c_duck_v2.1.hex) installed (open link, Ctrl+S to save file)
 - Micro SD card (default 128mb micro SD card didn't work for me)
 
 ## Compatibility
