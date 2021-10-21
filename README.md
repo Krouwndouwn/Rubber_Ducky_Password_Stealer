@@ -1,6 +1,6 @@
-# Rubber Ducky Password Stealer
-
 // Banner...
+
+# Rubber Ducky Password Stealer
 
 With this software it is possible to retrieve user passwords from a Windows 10/11 system. For example, passwords from browsers, installed programs and system saved passwords such as WiFi passwords. In addition, there is also an optional option to add scripts that retrieve system information, program information, network information, etc. It is also possible to add your own .bat scripts that are automatically executed next to the current scripts.
 
