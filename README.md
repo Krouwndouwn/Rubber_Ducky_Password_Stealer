@@ -24,11 +24,13 @@ The purpose of this software is to recover forgotten passwords, improve your own
 1. Rename the label of the Rubber Ducky storage medium to: "RDPS".
 2. Download the [latest release](https://github.com/Krouwndouwn/Rubber_Ducky_Password_Stealer/releases) (environment and scrips, payload with the right language (a payload equal to the target system) and extra scripts for getting system information (optional)) and extract the rar files to the root location of the Rubber Ducky storage.
 3. Disable Windows Security otherwise the downloaded files will be removed from the system in the next step.
-4. Download the [Windows Password Recovery Tools](https://www.nirsoft.net/password_recovery_tools.html) from Nirsoft and extract them to: "(Rubber Ducky storage)\files\nirsoft\".
-5. Manualy download the command line tools: BulletsPassView ([x32](https://www.nirsoft.net/utils/bulletspassview.zip)/[x64](https://www.nirsoft.net/utils/bulletspassview-x64.zip)), OperaPassView ([x32](https://www.nirsoft.net/toolsdownload/operapassview.zip)), RouterPassView ([x32](https://www.nirsoft.net/toolsdownload/routerpassview.zip)) and WirelessKeyView ([x32](https://www.nirsoft.net/toolsdownload/wirelesskeyview.zip)/[x64](https://www.nirsoft.net/toolsdownload/wirelesskeyview-x64.zip), password: "WKey4567#"). Also extract the downloaded x32 files (only the .exe files) to: "(Rubber Ducky storage)\files\nirsoft\".
+4. Download the [Windows Password Recovery Tools](https://www.nirsoft.net/password_recovery_tools.html) with command-line support from Nirsoft and extract them to: "(Rubber Ducky storage)\files\nirsoft\".
+5. Manualy download the command-line tools: BulletsPassView ([x32](https://www.nirsoft.net/utils/bulletspassview.zip)/[x64](https://www.nirsoft.net/utils/bulletspassview-x64.zip)), OperaPassView ([x32](https://www.nirsoft.net/toolsdownload/operapassview.zip)), RouterPassView ([x32](https://www.nirsoft.net/toolsdownload/routerpassview.zip)) and WirelessKeyView ([x32](https://www.nirsoft.net/toolsdownload/wirelesskeyview.zip)/[x64](https://www.nirsoft.net/toolsdownload/wirelesskeyview-x64.zip), password: "WKey4567#"). Also extract the downloaded x32 files (only the .exe files) to: "(Rubber Ducky storage)\files\nirsoft\".
 6. Rename the just downloaded x64 files to: "(filename)_x64.exe" and move them to: "(Rubber Ducky storage)\files\nirsoft\" Also do this for the x64 files located in: "(Rubber Ducky storage)\files\nirsoft\x64\" and remove the x64 folder afterwards. Feel free to delete Nirsoft files that are of no use to you. Learn more about what these files do on the [Nirsoft website](https://www.nirsoft.net/).
 7. Rename all extrensions of the files located in: "(Rubber Ducky storage)\files\nirsoft\" from: ".exe" to: ".ps". The idea behind this is to reduce Windows Security's alertness to these files when the Rubber Ducky is just plugged into the target.
 8. // Soon...
+9. Safely remove the Rubber ducky storage.
+10. Turn Windows Security back on.
 
 
 Tip: Update external programs regularly for desired results.
