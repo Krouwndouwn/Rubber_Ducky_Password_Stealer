@@ -31,8 +31,7 @@ The purpose of this software is to recover forgotten passwords, improve your own
 8. // Soon...
 9. Safely remove the Rubber ducky storage.
 10. Turn Windows Security back on.
-
-Tip: Update external programs regularly for desired results.
+11. Update this software and external programs regularly for desired results.
 
 ## Usage
 
