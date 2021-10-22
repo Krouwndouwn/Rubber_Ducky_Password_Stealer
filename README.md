@@ -21,7 +21,7 @@ The purpose of this software is to recover forgotten passwords, improve your own
 
 ## Setup Rubber Ducky environment
 
-1. Rename the label of the Rubber Ducky storage medium to: "RDPS".
+1. Rename the label of the Rubber Ducky storage to: "RDPS".
 2. Download the [latest release](https://github.com/Krouwndouwn/Rubber_Ducky_Password_Stealer/releases) (environment and scrips, payload with the right language (a payload equal to the target system) and extra scripts for getting system information (optional)) and extract the rar files to the root location of the Rubber Ducky storage.
 3. Disable Windows Security otherwise the downloaded files will be removed from the system in the next step.
 4. Download the [Windows Password Recovery Tools](https://www.nirsoft.net/password_recovery_tools.html) with command-line support from Nirsoft and extract them to: "(Rubber Ducky storage)\files\nirsoft\".
