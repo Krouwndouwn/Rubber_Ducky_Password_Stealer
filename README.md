@@ -52,7 +52,7 @@ Update this software and external programs mentioned above regularly for desired
 
 ## Issues
 
-Please feel free to [submit an issue](https://github.com/Krouwndouwn/Rubber_Ducky_Password_Stealer/issues) for any of the following reasons:
+Please feel free to [submit an issue](https://github.com/Krouwndouwn/Rubber_Ducky_Password_Stealer/issues/new/choose) for any of the following reasons:
 
 - Reporting a bug.
 - Reporting a grammatical error.
