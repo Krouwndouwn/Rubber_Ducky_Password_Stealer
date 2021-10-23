@@ -6,7 +6,7 @@ The above data is stored in text files on the SD card of the Rubber Ducky. This 
 
 The Twin Duck firmware, custom payload, custom scripts and third party programs made it possible to achieve this. Thanks to the external parties mentioned on this GitHub page who are an important part of this software.
 
-The purpose of this software is to recover forgotten passwords, improve your own digital security and gain knowledge about a Rubber Ducky, the Twin Duck firmware, writing scripts in combination with the use of external programs etc. It is not intended to be used for malicious purposes.
+I am not responsible for damage affected by this software to your own or other systems. The purpose of this software is to recover forgotten passwords, improve your own digital security and gain knowledge about a Rubber Ducky, the Twin Duck firmware, writing scripts in combination with the use of external programs etc. It is not intended to be used for malicious purposes.
 
 ## Requirements
 
@@ -18,6 +18,8 @@ The purpose of this software is to recover forgotten passwords, improve your own
 - Windows 10/11 x32/x64 (Windows 8/8.1, not tested yet).
 - Windows Security must be used as virus scanner for this software to work.
 - Successful operation on the target system depending on the language support of the payload.
+- This software can only be executed if the user has unlocked his system.
+- This software (unchanged) only works on systems that are not too slow to perform the slow payload version and the external software within a certain time.
 
 ## Setup Rubber Ducky environment
 
@@ -32,13 +34,17 @@ The purpose of this software is to recover forgotten passwords, improve your own
 9. Rename the extension of the "mimikatz.exe" files located in: "(Rubber Ducky storage)\files\mimikatz\Win32\" and "(Rubber Ducky storage)\files\mimikatz\x64\" from: ".exe" to: ".rdps".
 10. Safely remove the Rubber ducky storage.
 11. Turn Windows Security back on.
-12. The Rubber Ducky environment has now been fully set up.
+12. The Rubber Ducky environment has now been fully set up and can be used.
 
 Update this software and external programs mentioned above regularly for desired results.
 
 ## Usage
 
-// Soon...
+1. Make sure the Rubber Ducky environment is set up correctly.
+2. Place the Rubber Ducky in the target system.
+3. Wait about 60 seconds until everything has been executed. When a Caps Lock light is present, it will flash a number of times to indicate that it is finished.
+4. Remove the Rubber Ducky from the target system.
+5. If all went well, the Rubber Ducky has now saved the results in the result folder.
 
 ## Make your own changes
 
@@ -59,7 +65,3 @@ Please feel free to [submit an issue](https://github.com/Krouwndouwn/Rubber_Duck
 **How can i rename file extensions?**
 
 Open Windows file explorer, open the "View" tab and enable: "File name extensions". Then just simply replace the extension name.
-
-## Disclaimer
-
-// Soon...
