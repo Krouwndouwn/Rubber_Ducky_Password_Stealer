@@ -7,11 +7,11 @@ assignees: ''
 
 ---
 
-Describe the improvement you'd like
+**Describe the improvement you'd like**
 A clear and concise description of the improvement.
 
-Describe alternatives you've considered
+**Describe alternatives you've considered**
 A clear and concise description of any alternative solutions or improvement you've considered.
 
-Additional context
+**Additional context**
 Add any other context or screenshots about the feature request here.

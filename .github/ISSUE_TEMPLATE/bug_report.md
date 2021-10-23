@@ -19,7 +19,7 @@ A clear and concise description of what you expected to happen.
 **Screenshots**
 If applicable, add screenshots to help explain your problem.
 
-**Desktop (please complete the following information):**
+**System information**
  - Windows: [e.g. 8, 8.1, 10, 11 + x32, x64]
  - Version: [e.g. 21H1, 21H2]
 
