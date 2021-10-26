@@ -48,7 +48,20 @@ Update this software and external programs mentioned above regularly for desired
 
 ## Make your own changes
 
-// Soon...
+**Optimize speed**
+
+- Remove unnecessary executable programs (Nirsoft and/or mimikatz) and scripts that increase the execution time of the software.
+- Set the "Wait Until Everything is executed" inside the payload properly to the time how long it takes to perform all programs and scripts.
+- Reduce the waiting times (DELAY) in the payload where this is possible so that the payload can execute faster on the target system. This depends on the speed of the target system.
+
+**Add programs and scripts**
+
+- Add your own .bat scripts that are automatically executed when placed in the: "(Rubber Ducky storage)\files\scripts\" folder.
+- Add your own programs in the "(Rubber Ducky storage)\files\(new folder)\" folder that can be controlled by their own .bat script.
+
+**Change everything**
+
+- Re-writing or reuse the payload and scripts to write new software that contains a different goal. For example, automating certain installations or automatically changing settings in Windows.
 
 ## Issues
 
@@ -65,3 +78,7 @@ Please feel free to [submit an issue](https://github.com/Krouwndouwn/Rubber_Duck
 **How can i rename file extensions?**
 
 Open Windows file explorer, open the "View" tab and enable: "File name extensions". Then just simply replace the extension name.
+
+**How do I generate my own payload?**
+
+Create a text file and converts it through the [Duck Encoder](https://github.com/hak5darren/USB-Rubber-Ducky/releases) to a .bin file. Or use the online [Duck Toolkit](https://ducktoolkit.com/encode) for this.
