@@ -18,7 +18,7 @@ powershell Add-MpPreference -ExclusionPath '%~d0\'
 REM ----- Create results folders -----
 if not exist %results_folder% MD %results_folder%
 
-REM ----- Save single files results -----
+REM ----- Execute scripts found inside the script folder -----
 for /r %scripts_folder% %%f in (*.bat) do powershell -Command Start-Process %scripts_folder%\%%~nxf -Verb RunAs -WindowStyle Hidden
 
 REM ----- Clear command history -----
