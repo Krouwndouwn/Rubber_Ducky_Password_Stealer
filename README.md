@@ -15,7 +15,7 @@ I am not responsible for damage affected by this software to your own or other s
 
 ## Compatibility
 
-- Windows 10/11 x32/x64 (Windows 8/8.1, not tested yet).
+- Windows 10/11 x32/x64.
 - Windows Security must be used as virus scanner for this software to work.
 - Successful operation on the target system depending on the language support of the payload.
 - This software can only be executed if the user has unlocked his system.
@@ -58,6 +58,10 @@ Update this software and external programs mentioned above regularly for desired
 
 - Add your own .bat scripts that are automatically executed when placed in the: "(Rubber Ducky storage)\files\scripts\" folder.
 - Add your own programs in the "(Rubber Ducky storage)\files\(new folder)\" folder that can be controlled by their own .bat script.
+
+**Change virus scanner**
+
+- Change the payload script to disable another virusscanner. It may be possible to disable another virus scanner by adding scripts or executable programs.
 
 **Change everything**
 
