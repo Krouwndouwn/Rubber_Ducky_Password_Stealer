@@ -10,6 +10,8 @@ I am not responsible for damage affected by this software to your own or other s
 
 ## Requirements
 
+<img src="https://cdn.shopify.com/s/files/1/0068/2142/products/rubber_ducky_300x.jpg" alt="Rubber Ducky" width="200px" height="200px">
+
 - [Rubber Ducky](https://hak5.org/collections/sale/products/usb-rubber-ducky-deluxe) with the [Twin Duck firmware](https://raw.githubusercontent.com/hak5darren/USB-Rubber-Ducky/master/Firmware/Images/c_duck_v2.1.hex) installed (Open link, Ctrl+S to save file).
 - Micro SD card (Default 128mb micro SD card didn't work in my case).
 
