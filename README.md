@@ -6,13 +6,13 @@ The above data is stored in text files on the SD card of the Rubber Ducky. This 
 
 The Twin Duck firmware, custom payload, custom scripts and third party programs made it possible to achieve this. Thanks to the external parties mentioned on this GitHub page who are an important part of this software.
 
-I am not responsible for damage affected by this software to your own or other systems. The purpose of this software is to recover forgotten passwords, improve your own digital security and gain knowledge about a Rubber Ducky, the Twin Duck firmware, writing scripts in combination with the use of external programs etc. It is not intended to be used for malicious purposes.
+I am not responsible for damage affected by this software to your own or other systems. The purpose of this software is to recover forgotten passwords, improve your own digital security and gain knowledge about a Rubber Ducky, The Twin Duck firmware, writing scripts in combination with the use of external programs etc. It is not intended to be used for malicious purposes.
 
 ## Requirements
 
-<img src="USB_Rubber_Ducky.jpg" alt="Rubber Ducky" width="200px" height="200px">
+<img src="./assets/usb_rubber_ducky.jpg" alt="Rubber Ducky" width="200px" height="200px">
 
-- Rubber Ducky with the Twin Duck firmware (c_duck_v2.1.hex) installed.
+- Rubber Ducky with the [The Twin Duck firmware](./assets/c_duck_v2.1.hex) (c_duck_v2.1.hex) installed ([Official Rubber Ducky firmware](./assets/duck_v2.1.hex)).
 - Micro SD card (Default 128mb micro SD card didn't work in my case).
 
 ## Compatibility
