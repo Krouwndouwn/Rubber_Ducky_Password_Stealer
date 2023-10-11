@@ -12,7 +12,7 @@ I am not responsible for damage affected by this software to your own or other s
 
 <img src="./assets/usb_rubber_ducky.jpg" alt="Rubber Ducky" width="200px" height="200px">
 
-- Rubber Ducky with the [The Twin Duck firmware](./assets/c_duck_v2.1.hex) (c_duck_v2.1.hex) installed ([Official Rubber Ducky firmware](./assets/duck_v2.1.hex)).
+- Rubber Ducky with the [The Twin Duck firmware](./assets/c_duck_v2.1.hex) (c_duck_v2.1.hex) installed ([Official Rubber Ducky firmware](./assets/duck_v2.1.hex) (duck_v2.1.hex) for backup).
 - Micro SD card (Default 128mb micro SD card didn't work in my case).
 
 ## Compatibility
