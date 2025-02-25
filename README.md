@@ -83,7 +83,7 @@ Please feel free to [submit an issue](https://github.com/Krouwndouwn/Rubber_Duck
 
 **How can i rename file extensions?**
 
-Open Windows file explorer, open the "View" tab and enable: "File name extensions". Then just simply replace the extension name.
+Open Windows file explorer, open the "View" tab, click on "View" and enable: "Hidden items". Then just simply replace the extension name.
 
 **How do I generate my own payload?**
 
