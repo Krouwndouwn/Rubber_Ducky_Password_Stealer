@@ -87,4 +87,4 @@ Open Windows file explorer, open the "View" tab and enable: "File name extension
 
 **How do I generate my own payload?**
 
-Create a payload on the [Payload Studio](https://payloadstudio.hak5.org/community/) website. Or use the [Duck Toolkit](https://ducktoolkit.com/encode) website for this.
+Create a payload on the [Payload Studio](https://payloadstudio.hak5.org/community/) website.
