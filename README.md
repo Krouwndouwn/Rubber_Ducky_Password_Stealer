@@ -1,89 +1,90 @@
 # Rubber Ducky Password Stealer
 
-With this software it is possible to retrieve user passwords from a Windows 10/11 system. For example, passwords from browsers, installed programs and system saved passwords such as WiFi passwords. In addition, there is also an optional option to add scripts that retrieve system information, program information, network information, etc. It is also possible to add your own .bat scripts that are automatically executed next to the current scripts.
+This software enables you to retrieve user passwords from a Windows 10/11 system, including passwords from browsers, installed programs, and system-stored passwords such as Wi-Fi passwords. Additionally, there is an optional feature to add scripts for retrieving system information, program information, network information, etc. You can also add your own `.bat` scripts that are automatically executed alongside the existing scripts.
 
-The above data is stored in text files on the SD card of the Rubber Ducky. This data is stored in a folder with the target's computer and username so that there are no complications when running on multiple computers or user accounts.
+The retrieved data is stored in text files on the SD card of the Rubber Ducky. This data is organized in a folder named after the target's computer and username, ensuring no complications when running on multiple computers or user accounts.
 
-The Twin Duck firmware, custom payload, custom scripts and third party programs made it possible to achieve this. Thanks to the external parties mentioned on this GitHub page who are an important part of this software.
+The Twin Duck firmware, custom payload, custom scripts, and third-party programs make this possible. Special thanks to the external contributors mentioned on this GitHub page, who play an essential role in this software.
 
-I am not responsible for damage affected by this software to your own or other systems. The purpose of this software is to recover forgotten passwords, improve your own digital security and gain knowledge about a Rubber Ducky, The Twin Duck firmware, writing scripts in combination with the use of external programs etc. It is not intended to be used for malicious purposes.
+> Disclaimer: I am not responsible for any damage caused by this software to your own or other systems. The purpose of this software is to recover forgotten passwords, improve your own digital security, and gain knowledge about Rubber Ducky, the Twin Duck firmware, writing scripts, and using external programs. It is not intended for malicious purposes.
 
 ## Requirements
 
 <img src="./assets/usb_rubber_ducky.jpg" alt="Rubber Ducky" width="200px" height="200px">
 
 - Rubber Ducky with the [The Twin Duck firmware](./assets/c_duck_v2.1.hex) (c_duck_v2.1.hex) installed ([Official Rubber Ducky firmware](./assets/duck_v2.1.hex) (duck_v2.1.hex) for backup).
-- Micro SD card (Default 128mb micro SD card didn't work in my case).
+- Micro SD card (Note: The default 128mb micro SD card did not work in my case).
 
 ## Compatibility
 
 - Windows 10/11 x32/x64.
 - Windows Security must be used as virus scanner for this software to work.
-- Successful operation on the target system depending on the language support of the payload.
-- This software can only be executed if the user has unlocked his system.
+- Successful operation on the target system depends on the language support of the payload.
+- This software can only be executed if the user has unlocked their system.
 - This software (unchanged) only works on systems that are not too slow to perform the slow payload version and the external software within a certain time.
 
 ## Setup Rubber Ducky environment
 
-1. Rename the label of the Rubber Ducky storage to: "RDPS".
-2. Download the [latest release](https://github.com/Krouwndouwn/Rubber_Ducky_Password_Stealer/releases/latest) (environment and scrips, payload with the right language (a payload equal to the target system) and extra scripts for getting system information (optional)) and extract the rar files to the root location of the Rubber Ducky storage.
-3. Disable Windows Security otherwise the downloaded files will be removed from the system in the next steps.
-4. Download the [Windows Password Recovery Tools](https://www.nirsoft.net/password_recovery_tools.html) with command-line support from Nirsoft and extract them to: "(Rubber Ducky storage)\files\nirsoft\".
-5. Manualy download the command-line tools: BulletsPassView, OperaPassView, RouterPassView and WirelessKeyView from the [Nirsoft](https://www.nirsoft.net/) website. Also extract the downloaded x32 files (only the .exe files) to: "(Rubber Ducky storage)\files\nirsoft\".
-6. Rename the just downloaded x64 files to: "(filename)_x64.exe" and move them to: "(Rubber Ducky storage)\files\nirsoft\" Also do this for the x64 files located in: "(Rubber Ducky storage)\files\nirsoft\x64\" and remove the x64 folder afterwards. Feel free to delete Nirsoft files that are of no use to you. Learn more about what these files do on the [Nirsoft](https://www.nirsoft.net/) website.
-7. Rename all extrensions of the files located in: "(Rubber Ducky storage)\files\nirsoft\" from: ".exe" to: ".rdps". The idea behind this is to reduce Windows Security's alertness to these files when the Rubber Ducky is just plugged into the target system.
-8. Download the [mimikatz](https://github.com/gentilkiwi/mimikatz/releases) tool and extract it to: "(Rubber Ducky storage)\files\mimikatz\".
-9. Rename the extension of the "mimikatz.exe" files located in: "(Rubber Ducky storage)\files\mimikatz\Win32\" and "(Rubber Ducky storage)\files\mimikatz\x64\" from: ".exe" to: ".rdps".
+1. Rename the label of the Rubber Ducky storage to: `RDPS`.
+2. Download the [latest release](https://github.com/Krouwndouwn/Rubber_Ducky_Password_Stealer/releases/latest)
+(environment and scripts, payload with the correct language (a payload equal to the target system) and extra scripts for system information (optional)), and extract the `.rar` files to the root location of the Rubber Ducky storage.
+3. Disable Windows Security; otherwise, the downloaded files will be removed in the next steps.
+4. Download the [Windows Password Recovery Tools](https://www.nirsoft.net/password_recovery_tools.html) with command-line support from Nirsoft and extract them to: `(Rubber Ducky storage)\files\nirsoft\`.
+5. Manualy download the command-line tools: BulletsPassView, OperaPassView, RouterPassView and WirelessKeyView from the [Nirsoft](https://www.nirsoft.net/) website and extract the downloaded x32 files (only the `.exe` files) to: `(Rubber Ducky storage)\files\nirsoft\`.
+6. Rename the downloaded x64 files to: `(filename)_x64.exe` and move them to: `(Rubber Ducky storage)\files\nirsoft\`. Also, do this for the x64 files located in: `(Rubber Ducky storage)\files\nirsoft\x64\` and remove the x64 folder afterwards. Feel free to delete Nirsoft files that are of no use to you. Learn more about what these files do on the [Nirsoft](https://www.nirsoft.net/) website.
+7. Rename all extrensions of the files located in: `(Rubber Ducky storage)\files\nirsoft\` from: `.exe` to: `.rdps`. This helps reduce Windows Security's alertness to these files when the Rubber Ducky is plugged into the target system.
+8. Download the [mimikatz](https://github.com/gentilkiwi/mimikatz/releases) tool and extract it to: `(Rubber Ducky storage)\files\mimikatz\`.
+9. Rename the extension of the `mimikatz.exe` files located in: `(Rubber Ducky storage)\files\mimikatz\Win32\` and `(Rubber Ducky storage)\files\mimikatz\x64\` from: `.exe` to: `.rdps`.
 10. Safely remove the Rubber ducky storage.
 11. Turn Windows Security back on.
-12. The Rubber Ducky environment has now been fully set up and can be used.
+12. The Rubber Ducky environment is now fully set up and ready for use.
 
-Update this software and external programs mentioned above regularly for desired results.
+> Note: Regularly update this software and the external programs mentioned above for optimal results.
 
 ## Usage
 
-1. Make sure the Rubber Ducky environment is set up correctly.
-2. Place the Rubber Ducky in the target system.
-3. Wait about 60 seconds until everything has been executed. When a Caps Lock light is present, it will flash a number of times to indicate that it is finished.
+1. Ensure the Rubber Ducky environment is set up correctly.
+2. Insert the Rubber Ducky into the target system.
+3. Wait about 60 seconds until everything is executed. If a Caps Lock light is present, it will flash several times to indicate completion.
 4. Remove the Rubber Ducky from the target system.
-5. If all went well, the Rubber Ducky has now saved the results in the result folder.
+5. If all went well, the Rubber Ducky has saved the results in the result folder.
 
-## Make your own changes
+## Customize and Optimize
 
 **Optimize speed**
 
-- Remove unnecessary executable programs (Nirsoft and/or mimikatz) and scripts that increase the execution time of the software.
-- Set the "Wait Until Everything is executed" inside the payload properly to the time how long it takes to perform all programs and scripts.
-- Reduce the waiting times (DELAY) in the payload where this is possible so that the payload can execute faster on the target system. This depends on the speed of the target system.
+- Remove unnecessary executable programs (Nirsoft and/or mimikatz) and scripts that increase execution time.
+- Adjust the "Wait Until Everything is Executed" time in the payload to match the time required for all programs and scripts to run.
+- Reduce the waiting times (`DELAY`) in the payload where possible to execute faster on the target system. This depends on the speed of the target system.
 
-**Add programs and scripts**
+**Add Programs and Scripts**
 
-- Add your own .bat scripts that are automatically executed when placed in the: "(Rubber Ducky storage)\files\scripts\" folder.
-- Add your own programs in the "(Rubber Ducky storage)\files\(new folder)\" folder that can be controlled by their own .bat script.
+- Add your own `.bat` scripts to be automatically executed by placing them in the: `(Rubber Ducky storage)\files\scripts\` folder.
+- Add your programs in the: `(Rubber Ducky storage)\files\(new folder)\` folder, which can be controlled by their own `.bat` script.
 
-**Change virus scanner**
+**Change Virus Scanner**
 
-- Change the payload script to disable another virusscanner. It may be possible to disable another virus scanner by adding scripts or executable programs.
+- Modify the payload script to disable a different virus scanner. It may be possible to disable another virus scanner by adding scripts or executable programs.
 
-**Change everything**
+**Customize Everything**
 
-- Re-writing or reuse the payload and scripts to write new software that contains a different goal. For example, automating certain installations or automatically changing settings in Windows.
+- Rewrite or reuse the payload and scripts to develop new software with different goals, such as automating installations or changing Windows settings automatically.
 
 ## Issues
 
-Please feel free to [submit an issue](https://github.com/Krouwndouwn/Rubber_Ducky_Password_Stealer/issues/new/choose) for any of the following reasons:
+Please feel free to [submit an issue](https://github.com/Krouwndouwn/Rubber_Ducky_Password_Stealer/issues/new/choose) for:
 
 - Reporting a bug.
 - Reporting a grammatical error.
 - Suggesting a feature.
-- Suggesting a improvement.
-- Any other issue with the payloads, scripts or GitHub page.
+- Suggesting an improvement.
+- Any other issue with the payloads, scripts, or GitHub page.
 
 ## FAQ
 
 **How can i rename file extensions?**
 
-Open Windows file explorer, open the "View" tab, click on "View" and enable: "Hidden items". Then just simply replace the extension name.
+Open Windows file explorer, open the `View` tab, click on `View` and enable: `Hidden items`. Then replace the extension name.
 
 **How do I generate my own payload?**
 
