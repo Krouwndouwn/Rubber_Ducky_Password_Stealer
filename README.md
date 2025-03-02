@@ -89,3 +89,19 @@ Please feel free to [submit an issue](https://github.com/Krouwndouwn/Rubber_Duck
 **How do I generate my own payload?**
 
 - Create a payload on the [Payload Studio](https://payloadstudio.hak5.org/community/) website.
+
+## Copyright and Licensing Terms
+
+This repository is licensed under the GNU General Public License v3.0 (GPL-3.0). A copy of the license is included in this repository as the [LICENSE](./LICENSE) file.
+
+**Usage Guidelines**
+
+1. You are permitted to use, modify, and distribute the code in accordance with the terms of the GNU GPL-3.0 license.
+
+2. Any work derived from this repository must also be licensed under the GNU GPL-3.0 to ensure the same freedoms for others.
+
+3. Attribution to the original author(s) is required when redistributing or publishing modifications.
+
+**Warranty Disclaimer**
+
+This project is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU GPL-3.0 for more details.
